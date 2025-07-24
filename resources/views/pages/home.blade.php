@@ -35,7 +35,7 @@
                 <div class="col-12 col-md-6 mt-4 mt-md-0">
                     <h1 class="font-weight-bolder text-gradient bg-gradient-primary">{{__('Make more money')}}</h1>
                     <h1 class="font-weight-bolder text-gradient bg-gradient-primary">{{__('with your content')}}</h1>
-                    <p class="font-weight-bold mt-3">🚀 {{__("Start your own premium creators platform with our ready to go solution.")}}</p>
+                    <p class="font-weight-bold mt-3">🚀 {{__("Start your own premium creators platform with  vishal our ready to go solution.")}}</p>
                     <div class="pt-1 d-flex justify-content-center justify-content-md-start">
                         <a href="{{Auth::check() ? route('feed') : route('login')}}" class="btn btn-grow bg-gradient-primary  btn-round mb-0 me-1 mt-2 mt-md-0 mr-2">{{__('Try for free')}}</a>
                         <a href="{{route('search.get')}}" class="btn btn-grow btn-link  btn-round mb-0 me-1 mt-2 mt-md-0 ">
