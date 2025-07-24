@@ -1,5 +1,6 @@
 <div class="suggestion-box {{ isset($classes) ? $classes : '' }} card text-white border-0 rounded mb-3" data-memberuserid="{{ $profile->id }}">
     <!-- Background Cover -->
+    <h1>hillll</h1>
     <div style="background: url('{{ $profile->cover ?? asset('img/default-cover.jpg') }}'); background-size: cover; background-position: center;" class="card-img suggestion-header-bg"></div>
 
     <!-- Overlay -->
