@@ -1,5 +1,5 @@
 @extends('layouts.generic')
-<h1>hhhhh</h1>
+
 @section('page_description', getSetting('site.description'))
 @section('share_url', route('home'))
 @section('share_title', getSetting('site.name') . ' - ' . getSetting('site.slogan'))
